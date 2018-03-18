@@ -52,6 +52,8 @@ nav span{
   display: flex;
   justify-content: center;
   margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .company-offers span{
   display: block;
@@ -63,7 +65,7 @@ nav span{
   flex-direction: column;
   align-items: center;
   height: 8rem;
-  padding: 0 3rem;
+  margin: 0 3rem;
 }
 .exams img{
   width: 3.5rem;
@@ -73,4 +75,37 @@ nav span{
 }
 .delivery img{
   width: 5rem;
+}
+.company-about{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.about{
+  width: 35%;
+  margin: 0 2.5%;
+}
+.about-title{
+  text-transform: uppercase;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  display: block;
+  width: 10rem;
+}
+footer{
+  display: flex;
+  background-color: azure;
+}
+.copyright-logo{
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+.copyright-logo img{
+  height: 1.5rem;
+  padding-right: 1rem;
 }
