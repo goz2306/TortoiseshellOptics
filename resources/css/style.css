@@ -36,6 +36,9 @@ header{
 nav span{
   padding-right: 2rem;
 }
+.nav-item-menu{
+  display: none;
+}
 .slogan{
   text-transform: uppercase;
   background-color: white;
@@ -45,7 +48,7 @@ nav span{
   margin-top: 10rem;
   margin-right: -2rem;
   padding: 1.5rem 5rem;
-  width: 45%;
+  width: auto;
   float: right;
 }
 .company-offers{
@@ -108,4 +111,82 @@ footer{
 .copyright-logo img{
   height: 1.5rem;
   padding-right: 1rem;
+}
+@media only screen and (max-width: 960px){
+  .container{
+    width: 100%;
+  }
+  header{
+    margin-top: 0;
+  }
+  .main-banner{
+    height: 22rem;
+  }
+  .slogan{
+    margin-top: 5rem;
+    margin-right: 2rem;
+    font-size: 1.33rem;
+    width: auto;
+    padding: 0.75rem 4rem;
+  }
+}
+@media only screen and (max-width: 670px){
+  .main-banner{
+    height: 17rem;
+    background-position: 20%;
+  }
+  .logo span{
+    display: none;
+  }
+  .nav-item{
+    display: none;
+  }
+  .nav-item-menu{
+    display: inline-block;
+  }
+  .slogan{
+    margin-top: 9rem;
+    margin-right: 0;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .company-offers{
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem auto;
+  }
+  .offer{
+    margin: 0.77rem;
+    font-size: 0.77rem;
+    height: auto;
+  }
+  .offer img{
+    margin-bottom: 1rem;
+  }
+  .company-about{
+    flex-direction: column;
+    align-items: center;
+  }
+  .about{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 4rem;
+  }
+  .about-title{
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+  .about-details{
+    font-size: 0.77rem;
+  }
+  footer{
+    justify-content: center;
+  }
+  .copyright-logo span{
+    display: none;
+  }
+  }
 }
